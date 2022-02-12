@@ -2,6 +2,7 @@ print("GWeb v1.0")
 import os
 print("Setting up...")
 os.system("pip install gh-md-to-html colorama")
+import colorama
 print(Fore.YELLOW + "Note: GWeb only generates files in GFM format." + Style.RESET_ALL)
 cd = os.path.dirname(os.path.realpath(__file__))
 import glob
