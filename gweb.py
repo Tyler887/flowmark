@@ -9,5 +9,5 @@ files = glob.glob(cd + "/*.md")
 import gh_md_to_html
 for i in files.nditer(b):
     if not os.path.exists('/tmp/test'):
-      with open(i.replace('.md', '.html', 'w'): pass
+      open(i.replace('.md', '.html', 'w'): pass
     print("Generated " + i ".")
