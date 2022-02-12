@@ -8,5 +8,5 @@ import glob
 files = glob.glob(cd + "/*.md")
 import gh_md_to_html
 for i in files.nditer(b):
-    open(i.replace('.md', '.html')
+    open(i.replace('.md', '.html'))
     print("Generated " + i + ".")
